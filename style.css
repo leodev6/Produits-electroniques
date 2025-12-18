@@ -119,9 +119,7 @@ ul {
     transition: var(--transition-base);
 }
 
-.navbar.scrolled {
-    box-shadow: var(--shadow-md);
-}
+
 
 .nav-wrapper {
     display: flex;
@@ -996,34 +994,6 @@ section {
     color: white;
 }
 
-/* Scroll to Top Button */
-.scroll-top {
-    position: fixed;
-    bottom: var(--spacing-lg);
-    right: var(--spacing-lg);
-    width: 50px;
-    height: 50px;
-    background: var(--gradient-primary);
-    color: white;
-    border-radius: var(--radius-full);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: var(--shadow-xl);
-    opacity: 0;
-    visibility: hidden;
-    transition: var(--transition-base);
-    z-index: 999;
-}
-
-.scroll-top.visible {
-    opacity: 1;
-    visibility: visible;
-}
-
-.scroll-top:hover {
-    transform: translateY(-5px);
-}
 
 /* Animations */
 @keyframes fadeInUp {
